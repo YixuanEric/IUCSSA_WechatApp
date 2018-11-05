@@ -1,0 +1,58 @@
+<!--pages/home/home.wxml-->
+
+<view class="title">
+  IUCSSA生活助手
+</view>
+<swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" mode="aspectFit" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<view class="grid">
+
+  <navigator url="../recentEvents/recentEvents" open-type='navigate'>
+    <image src="../../images/event-note.png"/>
+    <text>近期活动</text>
+  </navigator>
+  <view>
+    <image src="../../images/app store-fill.png"/>
+    <text>全部活动</text>
+  </view>
+  <view>
+    <image src="../../images/heart.png"/>
+    <text>CSSA服务</text>
+  </view>
+
+
+  <view>
+    <image src="../../images/food_bowl.png"/>
+    <text>美食指南</text>
+  </view>
+  <view>
+    <image src="../../images/shopping.png"/>
+    <text>购物指南</text>
+  </view>
+  <view>
+    <image src="../../images/school.png"/>
+    <text>专业介绍</text>
+  </view>
+
+
+  <view>
+    <image src="../../images/map.png" />
+    <text>校园地图</text>
+  </view>
+  <view>
+    <image src="../../images/bus.png" />
+    <text>公交线路</text>
+  </view>
+  <view>
+    <image src="../../images/contactUs.png" />
+    <text>联系我们</text>
+  </view>
+
+</view>

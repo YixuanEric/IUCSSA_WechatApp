@@ -1,0 +1,13 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wxb3d1e7fad020f518",
+	"projectname": "IUCSSA",
+	"libVersion": "2.3.0",
+	"condition": {}
+}
