@@ -2,9 +2,7 @@
   "pages":[
     "pages/home/home",
     "pages/user/user",
-    "pages/recentEvents/recentEvents",
-    "pages/index/index",
-    "pages/addCgi/addCgi"
+    "pages/recentEvents/recentEvents"
   ],
   "window":{
     "backgroundColor":"#fff",
