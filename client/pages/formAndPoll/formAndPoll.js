@@ -1,4 +1,4 @@
-// pages/recentEvents/recentEvents.js
+// pages/formAndPoll/formAndPoll.js
 Page({
 
   /**

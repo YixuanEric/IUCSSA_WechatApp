@@ -1,27 +1,29 @@
 {
-  "pages":[
+  "pages": [
     "pages/home/home",
     "pages/user/user",
-    "pages/recentEvents/recentEvents"
+    "pages/formAndPoll/formAndPoll",
+    "pages/allEvents/allEvents",
+    "pages/restaurants/restaurants"
   ],
-  "window":{
-    "backgroundColor":"#fff",
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "IUCSSA",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "color":"#7a1705",
-    "selectedColor":"#7a1705",
-    "borderStyle":"#f8f8f8",
-    "backgroundColor":"#f8f8f8",
-    "list":[
+  "tabBar": {
+    "color": "#7a1705",
+    "selectedColor": "#7a1705",
+    "borderStyle": "#f8f8f8",
+    "backgroundColor": "#f8f8f8",
+    "list": [
       {
-        "pagePath":"pages/home/home",
-        "text":"主页",
-        "iconPath":"images/home.png",
-        "selectedIconPath":"images/home.png"
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home.png"
       },
       {
         "pagePath": "pages/user/user",
@@ -30,5 +32,8 @@
         "selectedIconPath": "images/user.png"
       }
     ]
+  },
+  "usingComponents": {
+    "card": "/components/card/card"
   }
 }

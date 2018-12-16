@@ -1,1 +1,11 @@
 /* pages/user/user.wxss */
+
+.user-avatar{
+  overflow:hidden;
+  display: block;
+  margin: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,4 @@
+<!--pages/formAndPoll/formAndPoll.wxml-->
+<scroll-view>
+<card title="努力更新中，敬请期待" heading="努力更新中，敬请期待">{{}}</card>
+</scroll-view>

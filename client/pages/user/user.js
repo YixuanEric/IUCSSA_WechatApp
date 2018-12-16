@@ -1,140 +1,112 @@
-// pages/user/user.js
-var qcloud = require('../../vendor/wafer2-client-sdk/index')
-var config = require('../../config')
-var util = require('../../utils/util.js')
+// pages/home/home.js
 Page({
-
-  /**
-   * Page initial data
-   */
   data: {
-    userInfo: {},
-    logged: false,
-    takeSession: false,
-    requestResult: ''
+    text: 'This is page data.',
+    apiKey:"AIzaSyAxqRVR1Bjhc4IRcD_z4YcX9kLuhlneeMY"
   },
-  bindGetUserInfo: function () {
-    if (this.data.logged) return
-
-    util.showBusy('正在登录')
-
-    const session = qcloud.Session.get()
-
-    if (session) {
-      // 第二次登录
-      // 或者本地已经有登录态
-      // 可使用本函数更新登录态
-      qcloud.loginWithCode({
-        success: res => {
-          this.setData({ userInfo: res, logged: true })
-          util.showSuccess('登录成功')
-        },
-        fail: err => {
-          console.error(err)
-          util.showModel('登录错误', err.message)
-        }
-      })
-    } else {
-      // 首次登录
-      qcloud.login({
-        success: res => {
-          this.setData({ userInfo: res, logged: true })
-          util.showSuccess('登录成功')
-        },
-        fail: err => {
-          console.error(err)
-          util.showModel('登录错误', err.message)
-        }
-      })
-    }
-  },
-
-  // 切换是否带有登录态
-  switchRequestMode: function (e) {
-    this.setData({
-      takeSession: e.detail.value
-    })
-    this.doRequest()
-  },
-
-  doRequest: function () {
-    util.showBusy('请求中...')
-    var that = this
-    var options = {
-      url: config.service.requestUrl,
-      login: true,
-      success(result) {
-        util.showSuccess('请求成功完成')
-        console.log('request success', result)
-        that.setData({
-          requestResult: JSON.stringify(result.data)
+  onLoad(options) {
+    let self = this;
+    // Do some initialize when page load.
+    wx.getLocation({
+      type: 'wgs84',
+      success(res) {
+        const latitude = res.latitude
+        const longitude = res.longitude
+        const speed = res.speed
+        const accuracy = res.accuracy
+        console.log("location: " + JSON.stringify(res));
+        console.log("url is: " + "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + latitude + "," + longitude + "&key=" + self.data.apiKey);
+        wx.request({
+          url: "https://maps.googleapis.com/maps/api/geocode/json?latlng="+latitude+","+longitude+"&key="+self.data.apiKey,
+          success:(res)=>{
+            console.log(res.data.results[1].formatted_address);
+          },
+          fail:(error)=>{
+            console.log(error);
+          }
         })
-      },
-      fail(error) {
-        util.showModel('请求失败', error);
-        console.log('request fail', error);
       }
-    }
-    if (this.data.takeSession) {  // 使用 qcloud.request 带登录态登录
-      qcloud.request(options)
-    } else {    // 使用 wx.request 则不带登录态
-      wx.request(options)
-    }
+    })
+    
   },
-
-  /**
-   * Lifecycle function--Called when page load
-   */
-  onLoad: function (options) {
+  onReady() {
+    // Do something when page ready.
+    console.log("page ready now. Here is the data: "+ JSON.stringify(this.data));
+  },
+  onShow() {
+    // Do something when page show.
+  },
+  onHide() {
+    // Do something when page hide.
+  },
+  onUnload() {
+    // Do something when page close.
+  },
+  onPullDownRefresh() {
+    // Do something when pull down.
+  },
+  onReachBottom() {
+    // Do something when page reach bottom.
+  },
+  onShareAppMessage() {
+    // return custom share data when user share.
+  },
+  onPageScroll() {
+    // Do something when page scroll
+  },
+  onResize() {
+    // Do something when page resize
+  },
+  onTabItemTap(item) {
+    console.log(item.index)
+    console.log(item.pagePath)
+    console.log(item.text)
+  },
+  // Event handler.
+  viewTap() {
+    this.setData({
+      text: 'Set some data for updating view.'
+    }, function () {
+      // this is setData callback
+    })
+  },
+  loginButton(event){
+    wx.login({
+      success(res) {
+        if (res.code) {
+          // 发起网络请求
+          console.log("got the code" +  res.code);
+          wx.request({
+            url: 'https://cgpnbzln.qcloud.la',
+            data: {
+              code: res.code
+            },
+          success(res){
+              console.log("request successful " + res.data);
+          }
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+      }
+    })
+  },
+  setAvatar(){
+    wx.getUserInfo({
+      success(res) {
+        const userInfo = res.userInfo
+        const nickName = userInfo.nickName
+        const avatarUrl = userInfo.avatarUrl
+        const gender = userInfo.gender // 性别 0：未知、1：男、2：女
+        const province = userInfo.province
+        const city = userInfo.city
+        const country = userInfo.country
+        this.setData({ avatarUrl }, () => console.log(JSON.stringify(this.data)));
+      }
+    })
 
   },
-
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage: function () {
-
+  customData: {
+    hi: 'MINA'
   }
 })

@@ -6,10 +6,10 @@ Page({
    */
   data: {
     imgUrls: [
-      "../../images/1.jpg",
-      "../../images/1.jpg",
-      "../../images/1.jpg",
-      "../../images/1.jpg",
+      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
+      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
+      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
+      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
     ],
   },
 

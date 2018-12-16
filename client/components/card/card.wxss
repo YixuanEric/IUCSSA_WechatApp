@@ -1,0 +1,27 @@
+
+.card{
+  height:270rpx;
+  box-shadow: 1px 1px 1px 1px #999999ab;
+  margin:20rpx;
+  border-radius:2rpx;
+  border:1px solid white;
+}
+.card:hover{
+  background:#999999;
+}
+
+.card-inner{
+  display:flex;
+  padding-top: 10rpx;
+}
+.title{
+  font-size: 1.05rem;
+  padding:10rpx 30rpx;
+  border-bottom: 1px solid #ccc8c8;
+}
+.card-inner image{
+  display: inline-flex;
+  width:180rpx;
+  height:180rpx;
+  margin-right:15rpx;
+}

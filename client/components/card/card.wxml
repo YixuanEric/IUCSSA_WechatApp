@@ -1,0 +1,12 @@
+
+<view bindtap="tapHandler" class="card">
+<view class="title">
+  {{title}}
+</view>
+<view class="card-inner"> 
+  <image mode="scaleToFill"src="{{imageUrl}}"></image>
+<view>
+  {{heading}}
+</view> 
+</view>
+</view>

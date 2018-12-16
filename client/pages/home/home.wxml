@@ -14,24 +14,24 @@
 
 <view class="grid">
 
-  <navigator url="../recentEvents/recentEvents" open-type='navigate'>
+  <navigator url="../formAndPoll/formAndPoll" open-type='navigate'>
     <image src="../../images/event-note.png"/>
+    <text>报名投票</text>
+  </navigator>
+  <navigator url="../allEvents/allEvents" open-type='navigate'>
+    <image src="../../images/app store-fill.png"/>
     <text>近期活动</text>
   </navigator>
-  <view>
-    <image src="../../images/app store-fill.png"/>
-    <text>全部活动</text>
-  </view>
   <view>
     <image src="../../images/heart.png"/>
     <text>CSSA服务</text>
   </view>
 
 
-  <view>
+  <navigator url="../restaurants/restaurants" open-type='navigate'>
     <image src="../../images/food_bowl.png"/>
     <text>美食指南</text>
-  </view>
+  </navigator>
   <view>
     <image src="../../images/shopping.png"/>
     <text>购物指南</text>
