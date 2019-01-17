@@ -7,9 +7,9 @@ Page({
   data: {
     imgUrls: [
       "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
-      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
-      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
-      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/1.jpg",
+      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/2.jpeg",
+      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/3.jpeg",
+      "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/4.jpeg",
     ],
   },
 

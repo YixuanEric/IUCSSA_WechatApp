@@ -1,10 +1,10 @@
 {
-	"client": "./client",
-	"svr": "./server",
-	"miniprogramRoot": "./client",
-	"qcloudRoot": "./server",
+	"client": "client/",
+	"svr": "server/",
+	"miniprogramRoot": "client/",
+	"qcloudRoot": "server/",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -13,5 +13,80 @@
 	"appid": "wxb3d1e7fad020f518",
 	"projectname": "IUCSSA",
 	"libVersion": "2.3.0",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": -1,
+					"name": "春晚节目报名连接",
+					"pathName": "pages/formAndPoll/springGalaShowRegisterForm/springGalaShowRegisterForm",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "formAndPoll",
+					"pathName": "pages/formAndPoll/formAndPoll",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "春晚主持人报名链接",
+					"pathName": "pages/formAndPoll/springGalaVolunteerRegisterForm/springGalaVolunteerRegisterForm",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "美食指南",
+					"pathName": "pages/restaurants/restaurants",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "cssa服务",
+					"pathName": "pages/cssaService/cssaService",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "2",
+					"pathName": "pages/cssaService/orientation/orientation",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "3",
+					"pathName": "pages/cssaService/club/club",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "4",
+					"pathName": "pages/maps/dorm/dorm",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "联系我们",
+					"pathName": "pages/contactUs/contactUs",
+					"query": ""
+				}
+			]
+		}
+	}
 }

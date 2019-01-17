@@ -9,3 +9,12 @@
   border: 2px solid #fff;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.copyright{
+  text-align: center;
+  position:absolute;
+  bottom: 0;
+  color:#bbbbbb;
+  font-style: italic;
+  font-size: 5pt;
+}

@@ -1,0 +1,93 @@
+<view class="title">学校宿舍指南</view>
+<view class="main">
+<view class ="para">在布鲁明顿校区，宿舍主要分为三个区域，他们分别是：Central Neighborhood，Northwest Neighborhood 以及Southeast Neighborhood。这也是学校提供给新生填写宿舍偏好的三个选择。</view>
+<view class="section-title" id="0" bindtap='tapHandler'>Central Neighborhood 简介</view>
+  <view hidden="{{sub[0]}}">
+    <view class="para">Central Neighborhood 的宿舍全都在十街上，离Kelley商学院，Wells图书馆，体育馆(SRSC)，以及
+十街上的餐馆等都是步行几分钟的距离。从离图书馆最近的算起，依次是Wright，Teter，Ashton，Eigenmann，各个宿舍之间也都是寥寥几步的距离。由于十街是各大教学楼所在的 街道，这一区域的宿舍也是最抢手的，但专业不同上课地点也会有所不同，大家可以将学院地点作为 参考进行选择。十街上的交通也非常便捷，有6号公车经停Kelley商学院，Wells图书馆，反向坐9号公交车还可以直达College Mall, Kroger等购物的地方。今年Teter 新增了IT的LLC。Living Learning Center (LLC)代表生活学习中心，不是指具体的宿舍。这个是一个给学生提供交流学习的场所，场所通常在宿舍楼下，也就是生活学习一体化。在这里，同学们可以一起交流学习心得，生活趣事等等。LLC 也会给同学们提供一些课程，后文会详细介绍。</view>
+  </view>
+  <view class="section-title" id="1" bindtap='tapHandler'>Northwest Neighborhood 简介</view>
+  <view hidden="{{sub[1]}}">
+    <view class="para">Northwest Neighborhood， 这个区域以party闻名，因此是一个非常好的区域可以体验美国大学 生活的地方，同时这也是这个区域 宿舍的缺点之一:晚上会比较吵，喜欢安静的同学可能不太适合这里。这几个宿舍都位于商学院后方区域，只有Collins位于十街和七街的中间。按照离商学院远近程度依次为 Collins，Foster，McNutt以及 Briscoe。这个区域也是LLC所在区域。</view>
+  </view>
+
+  <view class="section-title" id="2" bindtap='tapHandler'>Southeast Neighborhood 简介</view>
+  <view hidden="{{sub[2]}}">
+    <view class="para">这个区域生活也是很便利的，因为宿舍都在三街上，沿街设有多个公交站点，无论是想要去十街，Downtown 还是College Mall 都有公车直达，各个宿舍离车站距离也不远。例如住在Willkie 或者Forest 的同学在宿舍楼下就可以乘坐E路公车，沿路下去会有很多教学楼例如必上的基础数学 118，119和211就在沿路的Swain West楼里; 音乐学院也在这区域附近，时不时去听两场演奏会也是很惬意的;另外学校的两个主要书店之一T.I.S也在三街上。同时，饮食的选择也很多，步行五分钟就有好几种选择，或者有空沿三街走下去到sample gate 附近的四街更有世界各地美食供你选择。</view>
+  </view>
+  <view class="heading">Central Neighborhood</view>
+  <view class="section-title" id="3" bindtap='tapHandler'>Ashton</view>
+  <view hidden="{{sub[3]}}">
+    <view class="para">Ashton宿舍的房型全部都是单人间，房间没有独立卫生间，洗澡洗漱需要到走廊外面的公共浴室，但是空间很大很方便。这个宿舍距离学校最大的体育馆(SRSC)只有一街之隔。SRSC内设有IU最好的健身房、游泳池、篮球场、排球场、羽毛球场等等各种球类的场地。Ashton不仅仅离体育馆近，而且离Kelley商学院和图书馆都很近，并且附近还有中国餐厅、韩国餐厅、印度超市等等。唯一的缺点是相比于重新装修过的其他宿舍来说，内部结构和设施相对来说有点旧，但是需要更多个人空间的同学选择一定不要错过Ashton。</view>
+  </view>
+  <view class="section-title" id="4" bindtap='tapHandler'>Eigenmann</view>
+  <view hidden="{{sub[4]}}">
+    <view class="para">Eigenmann，俗称为蛋人，位于十街，是新建的高层宿舍楼。蛋人也算得上是IUB的最高建筑物了。宿舍配有单人间，双人间和三人间。所有的房间都有空调和暖气，并且空间较大；每层都有两个公共厕所。宿舍楼下有书店、超市、星巴克和小食堂。虽然食堂相对较小，但是却食物种类也很多。食堂每周一到周五都有不一样的special food。一般会供应薯条、Omelet、Sub、土豆泥、玉米、炸鸡、华夫饼以及三种口味的Pancake。另外，蛋人位于三条公交线路6路、9路和E路的交叉口，平常去任何一个教学楼都十分便利。在周末，蛋人的地理位置也可以保证大家可以随时外出去喜欢的餐厅和超市。</view>
+  </view>
+  <view class="section-title" id="5" bindtap='tapHandler'>Teter</view>
+  <view hidden="{{sub[5]}}">
+    <view class="para">Teter宿舍位于学校图书馆旁边，步行三分钟到图书馆，五分钟到Kelley商学院。Teter是一个非常安静的宿楼，双人间居多，有少量单人间，并且所有宿舍都配有空调和暖气。宿舍的楼下有一个很大的game room，配置有电视、乒乓球、桌球等娱乐设施。另外，还有一个供大家学习的study hub，里面有小组开会用的房间还有电脑供大家学习使用。虽然Teter没有独立的食堂，但是距离Wright的食堂只有一分钟的路程。Teter相比较之下是性价比较高的宿舍楼。</view>
+  </view>
+  <view class="section-title" id="6" bindtap='tapHandler'>Wright</view>
+  <view hidden="{{sub[6]}}">
+    <view class="para">Wright就坐落于Teter的旁边，距离图书馆、Health Center和Kelley商学院只有两三分钟的距离。Wright跟Teter其实很相似，有单人间和双人间，但是唯一的缺点是宿舍里没有空调。宿舍的一楼有学校其中一个最大的食堂，并且有一个小超市。食堂里面选择非常多，包括Pizza、意大利面、墨西哥菜、沙拉、薯条、汉堡，然而最受欢迎一定是炒饭和炸鸡，这可是IU人的最爱!</view>
+  </view>
+
+
+  <view class="heading">Northwest Neighborhood</view>
+  <view class="section-title" id="7" bindtap='tapHandler'>Collins</view>
+  <view hidden="{{sub[7]}}">
+    <view class="para">Collins位于Woodlawn Ave，地理位置也是十分方便，距离
+IMU大约三分钟的步行时间，交通线路也非常多。它还是一个
+Living Learning Center。宿舍提供双人房和三人房；三人房
+还提供一个客厅。Collins拥有IUB唯一的自助食堂，并且它的
+装修风格非常复古。之所以要点出这个不是特别大众的宿舍,
+是因为住这里的学生可以申请免费的街道停车车位, 对于大一
+想买车车又住宿舍的学生来说是相当划算的。</view>
+  </view>
+  <view class="section-title" id="8" bindtap='tapHandler'>Foster</view>
+  <view hidden="{{sub[8]}}">
+    <view class="para">Foster位于Kelley背后，比较适合就读商科或者学Informatics
+专业的同学。但是对于其他学科来说，算是处于比较偏远的北
+区。虽然是偏远，但是坐学校的A路公交车基本就可以到达学
+校大部分的主要教学楼了。Foster大多数都是双人间，有少数
+的双人间，房间内有空调和暖气。Foster Gresham Hall有自
+己的食堂，是 Wright 食堂的缩小版，同样有墨西哥食物，炒
+饭，Pizza，Burger等等。居住在这个区域 的同学都会选择去
+Foster吃饭。</view>
+  </view>
+  <view class="section-title" id="9" bindtap='tapHandler'>McNutt</view>
+  <view hidden="{{sub[9]}}">
+    <view class="para">McNutt就位于Foster的对面，McNutt是Kelley的Living
+Learning Center，所以对于Kelley直录的学生是个不错的选
+择。但同学们一定要考虑到它是IU著名的Party Dorm这一事
+实。喜欢安静的同学们不建议居住。宿舍一楼有小型超市和
+食堂，提供早餐，以及生活用品以及零食的购买。</view>
+  </view>
+  <view class="section-title" id="10" bindtap='tapHandler'>Briscoe</view>
+  <view hidden="{{sub[10]}}">
+    <view class="para">Briscoe的优势在于宿舍很新很大，毗邻Stadium。Briscoe有
+四人间、两人间以及单人间；房间空间相对较大。多人间一般
+共享一个大的洗手间。宿舍条件十分不错。如果你希望在第一
+年广交朋友，多了解美国party文化，可以考虑居住在这边。</view>
+  </view>
+
+  <view class="heading">Southeast Neighborhood</view>
+  <view class="section-title" id="11" bindtap='tapHandler'>Forest</view>
+  <view hidden="{{sub[11]}}">
+    <view class="para">Forest位于三街上,分为A和B楼,两栋楼都在近 两年重新装修过。双人房占大多数,一般是 男女各分一层楼, 也有少量的带隔间的双人套间，都配有空调。但是房间普遍比较小。整个 楼层共用两个大公共厕所和浴室。Forest的食堂是一个全新的高大上的食堂，其也可以算西南区人流量最大的食堂。食堂建在Forest 的 center desk 下面, 这个食堂的味道和风格都是别具一格的。除了普通的堂食快餐,有的时候 还有风格独特美味的special dinner。Forest的美食除了牛排, customized pasta 还有各式具有亚洲风味的韩式拌饭、捞面、寿司等。除此之外还有鲜榨果汁,咖啡甜点供大家选择。 所以对于吃货们来说，Forest绝 对可以满足你们的胃。</view>
+  </view>
+  <view class="section-title" id="12" bindtap='tapHandler'>Read</view>
+  <view hidden="{{sub[12]}}">
+    <view class="para">Read是学校比较老的宿舍了,位于三街和Jordan的交接口,离音乐学院特别近,有缺点,但也有一定的优势。Read提供单人间和双人间，公共浴室在房间走廊外。Read 刚翻修过安装了空调，所以对于学生们来说冬暖夏凉宜人居住。而且, Read 楼下便利的 Café也能够基本满足大家对食物的需求,早餐特别可口，Omelet、华夫饼配上冰淇淋、Sub里鲜嫩可口的肉让人不得不爱上这里。想改改口味的同学们也可以到 forest食堂就餐,距离也就不到两分钟的步行。</view>
+  </view>
+  <view class="section-title" id="13" bindtap='tapHandler'>Spruce</view>
+  <view hidden="{{sub[13]}}">
+    <view class="para">Spruce是IUB最新的宿舍之一，内部设施完好，房间较大，每层楼都有活动室和超大屏电视。距离Spruce最近的食堂就是Forest，所以大部分同学都会选择去Forest。Lobby里的小卖部snacks齐全,有一架三角钢琴。地下室有三间 Musical Practice Room, 对于喜好音乐的朋友是很方便 的。由于其超高端的享受，Spruce的房租相比较起来也略微偏贵。</view>
+  </view>
+  <view class="section-title" id="14" bindtap='tapHandler'>Willkie</view>
+  <view hidden="{{sub[14]}}">
+    <view class="para">Willkie坐落于Rose Avenue，与Spruce隔街相望。这个宿舍相对比较安静，里面大部分是共用一个卫生间的两人间，同时也提供少量的单人间。Willkie里面有一个大超市,生活用品和食品琳琅满目，可以使用campus access, 所以住在附近的 (Spruce Forest)学生可以经常去逛逛。对于Transfer的 新生来说,Willkie是个不错的选择,尤其是还不打算买车 的同学。Willkie门口就有E路，可以带大家到大部分教学区域，同时本身宿舍离教学区也不是特别远，在阳光明媚秋高气爽季节，走路去上学也是一种享受。</view>
+  </view>
+  </view>
+

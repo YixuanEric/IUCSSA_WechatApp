@@ -32,4 +32,15 @@ router.get('/message', controllers.message.get)
 // POST 用来处理微信转发过来的客服消息
 router.post('/message', controllers.message.post)
 
+//--- Hello World接口 ---//
+router.get('/hello', controllers.hello)
+
+
+//--- IUCSSA表单接口 ---//
+router.post('/formSubmit',controllers.formSubmit.post)
+router.post('/springGalaShowRegisterForm', controllers.springGalaShowRegisterForm.post)
+router.post('/springGalaVolunteerRegisterForm', controllers.springGalaVolunteerRegisterForm.post)
+router.get('/formSubmit',controllers.formSubmit.get)
+
+
 module.exports = router

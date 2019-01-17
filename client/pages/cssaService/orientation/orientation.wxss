@@ -1,0 +1,35 @@
+.title {
+  font-size: 23pt;
+  font-weight:900;
+  margin: 28rpx 24rpx;
+  padding: 10rpx;
+  color:#7a1705;
+}
+
+.heading {
+  font-size: 20pt;
+  font-weight: 700;
+  margin: 2rpx 8rpx;
+  padding: 10rpx;
+  color:#7a1705;
+  font-style: italic;
+}
+
+.section-title{
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 30rpx 24rpx;
+  padding: 10rpx;
+  box-shadow: 6rpx 6rpx 12rpx #b4b4b4;
+}
+
+.main {
+  margin: 10rpx 25rpx;
+  padding-bottom: 150rpx;
+}
+
+.para {
+  margin-bottom: 15rpx;
+  padding: 20rpx 10rpx;
+  border-bottom: 1rpx solid #e7e7e7;
+}

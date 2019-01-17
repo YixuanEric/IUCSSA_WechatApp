@@ -12,7 +12,16 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+      wx.request({
+      url:'https://529855693.iucssa.xyz/weapp/formSubmit',
+        method:'get',
+        success:(res)=>{
+          this.setData({
+            feedbacks:res.data
+          },()=>console.log(this.data))
+        },
+        fail:e=>{console.log(e)}
+      })
   },
 
   /**

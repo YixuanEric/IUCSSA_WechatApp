@@ -1,0 +1,4 @@
+<!--client/pages/cssaService/cssaService.wxml-->
+<card title="新生手册 - Orientation" heading="大学生活从这里开始" url="./orientation/orientation" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/orientation.png"></card>
+<card title="新生手册 - 社团介绍" heading="让学习生涯也五彩缤纷" url="./club/club" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/club.png"></card>
+<card title="新生手册 - 学费缴纳指南" heading="首先我们要把学费交了" url="./tuition/tuition" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/tuition.png"></card>

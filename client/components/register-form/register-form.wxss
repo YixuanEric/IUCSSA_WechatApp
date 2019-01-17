@@ -1,0 +1,33 @@
+/* client/components/form/form.wxss */
+.form-container{
+  margin-top:20rpx;
+  padding:30rpx;
+}
+.form-title{
+  font-size: 20pt;
+  margin-left:30rpx;
+  margin-bottom: 10rpx;
+}
+.section{
+  padding:10rpx;
+  margin-bottom: 10rpx;
+}
+.form-container label{
+  display:block;
+}
+
+.form-container input, picker{
+  border:1rpx solid #f1f1f1;
+  padding:10rpx;
+}
+.form-container textarea{
+  min-height:200rpx;
+  border:1rpx solid #f1f1f1;
+}
+.input{
+  margin:5rpx 0;
+}
+
+.picker-input{
+  color:#777777;
+}

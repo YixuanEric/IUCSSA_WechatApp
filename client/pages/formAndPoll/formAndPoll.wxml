@@ -1,4 +1,11 @@
 <!--pages/formAndPoll/formAndPoll.wxml-->
 <scroll-view>
-<card title="努力更新中，敬请期待" heading="努力更新中，敬请期待">{{}}</card>
+
+<card title="春晚主持人/志愿者报名" heading="每个IU学子都有机会登上IUCSSA春晚的舞台" url="./springGalaVolunteerRegisterForm/springGalaVolunteerRegisterForm" imageUrl = "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/springGalaShowRegisterForm.jpeg"></card>
+
+<card title="春晚节目报名" heading="每个IU学子都有机会登上IUCSSA春晚的舞台" url="./springGalaShowRegisterForm/springGalaShowRegisterForm" imageUrl = "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/springGalaShowRegisterForm.jpeg"></card>
+
+<card title="小程序使用体验反馈" heading="写下你的感想吧,反馈会在测试留言板中显示" url="./feedbackForm/feedbackForm"></card>
+
+
 </scroll-view>

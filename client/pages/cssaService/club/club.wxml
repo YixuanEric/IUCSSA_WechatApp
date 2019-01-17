@@ -1,0 +1,80 @@
+<view class="title">社团介绍</view>
+<view class="main">
+
+<view class="section-title" id="0" bindtap='tapHandler'>X-Power</view>
+  <view hidden="{{sub[0]}}">
+    <view class="para">X-Power作为享誉IUB的舞团，每年在IU和Indiana大小舞台上展现了无数视觉盛宴。其对舞蹈专业严谨的态度、编舞上创新富革命性的想法使其闻名整个IU甚至Indiana。自2011年成立初始，X-Power一直秉承着“舞蹈没有界限”（All God’s Children Dance) 的原则，致力于创造以街舞为主，囊括多舞种的极具张力与包容性的表演。18年春晚，X-Power以大热手游《绝地求生》为创意点，融合了四个舞种，展现了一场无与伦比的饕餮盛宴：Swag风的Hip-hop，充满戏剧张力的拉丁，狂放不羁的现代，以及妖娆多姿的jazz，所有元素融合在一场“吃鸡”的战场中，碰撞出电光火石，引得观众席的欢呼喝彩声此起彼伏。舞社不仅在华人圈受到关注，在国际化的活动中也大放异彩。近三年来，X-Power还致力于通过舞蹈传扬中国文化。我们先后派代表编排中国风古典舞参加IU World Fare，并曾一举夺得第一名，使美国校园感受到中国文化的博大精深。</view>
+  </view>
+
+  <view class="section-title" id="1" bindtap='tapHandler'>D-Force</view>
+  <view hidden="{{sub[1]}}">
+    <view class="para">D.Force 于2010年秋季成立于美国印第安纳大学布鲁明顿校区，是本校第一个华人舞社。作为资历最老，舞种最广泛，登台表演次数最多的留学生舞蹈社团，他们拥有最强大的Coach阵容及最严谨的Board团队。D.Force超过八年的建设为整个社团奠定了良好的风气，并每年吸引超过一百多名新生的加入。舞台上，他们为大家带来最耀眼夺目的舞蹈；舞台下。他们是温暖的大家庭！</view>
+  </view>
+
+  <view class="section-title" id="2" bindtap='tapHandler'>梦想行动</view>
+  <view hidden="{{sub[2]}}">
+    <view class="para">梦想行动（Dream Corps International) 是一个由中国留美学生、学者以及海外华人发起的独立公益组织。梦想行动成立于2004年，志在改善中国贫困地区儿童的学习和发展环境。其立志于鼓励阅读，丰富孩子们的知识，拓宽孩子对于人生与世界的认识和理解，并挖掘他们的潜力。我们的使命是：以优质的图书、开放的图书室、活跃的阅读服务儿童，通过草根公益活动教育青年。</view>
+  </view>
+
+  <view class="section-title" id="3" bindtap='tapHandler'>Blazors Studio</view>
+  <view hidden="{{sub[3]}}">
+    <view class="para">Blazors Studio 是一个集摄影，摄像，手工拼制作为一体 的兴趣爱好者社团。成立于 2012年，目前共有成员51人。作为IUB唯一一个由中国学生组织的视觉艺术社团，Blazors在 成立之后一直在不断的进步完善，吸引着有着不同艺术兴趣 爱好的同学们加入，大家互相交流学习，在追寻自己梦想的 道路上共勉。Blazors Studio的名字也正代 表了社团成立的宗旨，Blazors源于blaze一词，意思是发光，燃烧。所以可以理解为发光 体，燃烧者，每个人都有一个属于自己的小宇宙，每个人都有一种潜在的力量去点燃自己的小宇宙，发光发热。Blazors Studio 的宗旨不仅是希望每个 Blazor 燃烧自己创作艺术的小宇宙，更希望通过这种方式可以激发每个Blazor对生活的热情，对自己梦想的不断追求，在人生的道路上也能做一个永不熄灭的发光体。 Blazors Studio以最真挚的心欢迎更多新同学的加入。 如果你也热爱生活，热爱艺术，Blazors Studio就在这等着你，一起点燃梦想做生活中的发光体。 了解更多关于Blazors Studio, 请关注社团的social media:
+• Facebook: Blazors Studio
+• Instagram: blazorsstudio
+• 人人: Blazors Studio
+• 微信公众号: Blazors Studio</view>
+  </view>
+
+  <view class="section-title" id="4" bindtap='tapHandler'>IUABL亚洲篮球联盟</view>
+  <view hidden="{{sub[4]}}">
+    <view class="para">亚洲篮球联盟 Asian Basketball League (简称ABL) 作为在印第安纳大学数一数二的亚洲学生组织，至今已经成立了五年。这几年来，ABL总人数已经扩展到150人以上，包括球员，教练，工作人员，管理层，等等。一直以来，ABL秉承着“为IUB的亚洲学生提供一个专业和公平的竞争平台，并且透过此平台培养出优秀的篮球人才，让他们在亚洲学生篮球界里绽放光芒!”的篮球理念。不仅如此，ABL让学生不止在球场上能发挥自己的实力，还给予大家一个透过管理层来提升个人的策划，组织，以及领导能力的机会。成为我们的一份子，为ABL付出，让我们变得更好!
+目前为止，ABL已经拥有十只队伍，分别是来自中国大陆的BlackJack，Monstar，Devils，Strawman，GM5，Flames，TNT，来自香港的LKF，台湾的Threesmall，以及韩国的Bullets。 关于每赛季的比赛赛制，每学期就是一个新赛季，而一个赛季里又分成常规赛和季后赛：常规赛为单循环赛，季后赛通过常规赛排名进行双败淘汰赛。新学期我们将会有一连串的活动，包括新生篮球赛。无论男或女，只要你喜欢篮球，马上扫描下方二维码订阅微信公众号，留意暑假最新动态！
+• 微信公众号： iuasianbasketball
+• Instagram: iuabl</view>
+  </view>
+
+  <view class="section-title" id="5" bindtap='tapHandler'>IU Chinese Soccer Club</view>
+  <view hidden="{{sub[5]}}">
+    <view class="para">IUCSC成立于2010年， 由热 爱足球的中国留学生成立。自成立开始，IUCSC吸引了中国 留学生群体的高水平足球爱好 者，每周在校外足球场进行训练等一系列的足球活动。近几年来，IUCSC多元化更加明显，吸引了包括香港，缅甸等 国家的足球爱好者。自去年换届选举以来，在主席曾宪琳以及队长周子正的带领下， IUCSC在各项赛事连战连捷，先后斩获了中西部华人四校赛(2014年)以及OSU华人 八校赛，战果累累。</view>
+  </view>
+
+  <view class="section-title" id="6" bindtap='tapHandler'>Ascend</view>
+  <view hidden="{{sub[6]}}">
+    <view class="para">Ascend Indiana University Bloomington is founded in 2010, as the local chapter of Ascend, the premier nation-wide professional organization dedicated to enabling its members, business partners and the community to leverage the leadership and global business potential of Pan- Asians. ASCEND provides lifelong support to members career and personal growth, with events anad programs benefiting undergraduate members and executive level.</view>
+  </view>
+
+  <view class="section-title" id="7" bindtap='tapHandler'>IU Badminton</view>
+  <view hidden="{{sub[7]}}">
+    <view class="para">In the Badminton Club, you can easily find good players and friends to not only improve your badminton skills but build a social network as well. Because of limited resource, our badminton courts are only provided for the club members. Membership fee is required for every member and is 20 for IU for IU student and staff every semester. But do not worry, we will return this fee back to you when you purchased some badminton birds from our club and also it is free for the first time when you come to visit our club.
+• Facebook page is here or to search group name: Indiana University Badminton Club
+• You can leave me a message or contact me personally through Email: chenjial@umail.iu.edu or WeChat: Jialiang_Cheng3213.</view>
+  </view>
+
+  <view class="section-title" id="8" bindtap='tapHandler'>Kappa Eta Phi Professional</view>
+  <view hidden="{{sub[8]}}">
+    <view class="para">KEP is a unique professional fraternity at the Kelley School of Business with globally diverse members striving for Social, Academic and Professional Excellence. Social Excellence is achieved through hangouts, mentor pairings and philanthropy. Hangouts are weekly casual events maybe at sporting events or weekend breakfast. Academic Excellence is achieved through shared study rooms. In our shared study rooms, each member can peer tutor others in their specific area of advanced understanding and get support and avoid frustration. Professional Excellence is achieved through special presentations from members and guest experts and “welcome to my home” trips events. Each member is responsible for at least one trip each year. A trip can be either as a visitor or a host, with students getting together at a holiday or vacation and become immersed in the local culture. Find out how you can be involved by contacting us at kepalpha@gmail.com, and we look forward to hearing from you.</view>
+  </view>
+
+  <view class="section-title" id="9" bindtap='tapHandler'>Chinese Business Association</view>
+  <view hidden="{{sub[9]}}">
+    <view class="para">Chinese Business Association (CBA), founded by a group of dedicated and passionate Chinese students in 2010, is an academic, professional, and social organization at Kelley School of Business. Our aim is to prepare our members for future success in the business world. Since 2010, we have more than 100 successful CBA alumni across the world working in various industries from top financial services firms to fast-growing entrepreneurial companies. Known as a family-like and warm organization, our current and previous members see CBA as their second families.
+We currently have 28 board members and 4 student advisors. Some of our events include: academic help sessions, which cover from in-class coaching for popular required Kelley classes like A100 and C104 to external exam preparation like GRE and GMAT; professional workshops, which train our members on every aspect of professionalism; career-related events, from speaker’s series on trendy business topics to alumni panels where they share their career experiences and guidance to current members. Besides above mentioned, we also partner with the UCSO (Undergraduate Career Services Office) to put on company information sessions and company visits.</view>
+  </view>
+
+  <view class="section-title" id="10" bindtap='tapHandler'>Young Pioneer</view>
+  <view hidden="{{sub[10]}}">
+    <view class="para">Little500是IU每年举办的一场自行车接力赛。这个周末也被誉为世界上最棒的大学周末。Young Pioneer，则是Little 500史上的第一支由国际生组成的华人车队。正如车队的名字，他们是这个领域亚洲人的先锋开拓者。车队成立于2014年，经过不懈努力，他们终于在2016 赛季以第24名的成绩，杀入了Little 500的决赛，创造了IU的华人自行车队历史! (预选赛取前33名车队) 然而，前方的路还很长，新的赛季，Young Pioneer期待新人的加入，继续在Little 500的赛场上创造辉煌。 在 Little 500比赛之外，Young Pioneer也会不定期组织山地林道越野活动。 Young Pioneer欢迎每一个喜欢或对自行车运动感兴趣的新同学的加入!</view>
+  </view>
+
+  <view class="section-title" id="11" bindtap='tapHandler'>水母与鹤乐队</view>
+  <view hidden="{{sub[11]}}">
+    <view class="para">曲风在布鲁斯/爵士/民谣/流行中摇摆的乐队。即兴为主，也有原创。现有吉他手三位，贝斯手鼓手各一位。三年来坚持参加学生会各类活动如春晚和中秋，现在大多数成员即将毕业，接下来的一年希望和更多学弟学妹们交流，让我们能看见IU的下一个学生乐队，充满青春激情的你快来一起jam!
+联系方式 (微信)：wyx970124</view>
+  </view>
+
+  <view class="section-title" id="12" bindtap='tapHandler'>MUSINA</view>
+  <view hidden="{{sub[12]}}">
+    <view class="para">MUSINA音乐社取名自“Music China”。作为IUB首个华人音乐社团，MUSINA致力于为IUB同学提供及宣传高品质的音乐。日常活动中我们会录制原创和翻唱歌曲，并拍摄MV在各大平台进行宣传。同时我们也会与广大优质音乐人进行线下排练，并在我们的公众平台定期推广优秀作品。期待同样热爱音乐的你加入我们！</view>
+  </view>
+
+</view>

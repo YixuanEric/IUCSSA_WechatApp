@@ -1,2 +1,11 @@
 <!--client/pages/restaurants/restaurants.wxml-->
-<text>client/pages/restaurants/restaurants.wxml</text>
+<scroll-view>
+<card title="美食林 Gourmet Gartden" heading="300 E. 3rd Street" imageUrl = "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/美食林.jpg"></card>
+<card title="红餐厅 Red" heading="1402 N. Walnut Street" imageUrl ="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/红餐厅.jpg"></card>
+<card title="荷苑 Lotus Garden" heading="110 S Washington St" imageUrl ="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/荷苑.jpg"></card>
+<card title="朝阳 Sunny Palace" heading="1143 S College Mall Rd" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/朝阳.jpg"></card>
+<card title="Asuka" heading="318 S College Mall Rd" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/asuka.png"></card>
+<card title="Lucky Express" heading="307 E 3rd St" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/luckyExpress.png"></card>
+<card title="百味 Best Taste" heading="109 W. 4th Street" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/bestTaste.jpg"></card>
+</scroll-view>
+

@@ -1,0 +1,2 @@
+<!--client/pages/maps/maps.wxml-->
+<card title="学校宿舍指南" heading= "安得广厦千万间，IU学子俱欢颜" url="./dorm/dorm" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/dorm.png"></card>

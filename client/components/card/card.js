@@ -29,7 +29,7 @@ Component({
       const self = this;
       console.log("tap");
       wx.navigateTo({
-        url: "https://mp.weixin.qq.com/s/sZtg7K7kM26L0A2Er6WQhw"
+        url: self.properties.url
       })
     }
   }

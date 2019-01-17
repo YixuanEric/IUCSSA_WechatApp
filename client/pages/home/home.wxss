@@ -3,13 +3,22 @@
 .title{
   margin:15rpx;
   padding:20rpx;
-  font-size: 1.2em;
+  font-size: 20pt;
+  color: #7a1705;
+  font-weight: bold;
+}
+.subtitle{
+  margin:15rpx;
+  margin-top:-30rpx;
+  padding-left:26rpx;
+  font-size: 12pt;
   color: #7a1705;
   font-weight: bold;
 }
 swiper{
   width:100%;
   height:320rpx;
+  margin-top: -30rpx;
 }
 
 swiper-item image{
@@ -19,7 +28,7 @@ swiper-item image{
 .grid{
   width:90%;
   margin: 0 auto;
-  margin-top: 50rpx;
+  margin-top: 30rpx;
   text-align: center;
   display: grid;
   height:590rpx;
@@ -40,4 +49,12 @@ swiper-item image{
 }
 .grid text{
   font-size: 25rpx;
+}
+.copyright{
+  position: absolute;
+  bottom:0;
+  left:40%;
+  color:#bbbbbb;
+  font-style: italic;
+  font-size: 5pt;
 }

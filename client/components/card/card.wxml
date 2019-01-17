@@ -1,4 +1,3 @@
-
 <view bindtap="tapHandler" class="card">
 <view class="title">
   {{title}}

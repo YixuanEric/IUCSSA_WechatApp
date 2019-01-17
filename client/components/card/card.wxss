@@ -1,27 +1,32 @@
 
 .card{
-  height:270rpx;
-  box-shadow: 1px 1px 1px 1px #999999ab;
+  height:280rpx;
+  box-shadow:  10rpx 10rpx 10rpx #888888;
   margin:20rpx;
-  border-radius:2rpx;
-  border:1px solid white;
-}
-.card:hover{
-  background:#999999;
+  margin-bottom:40rpx;
+  border-radius:5rpx;
+  box-sizing: border-box;
+  border: solid 1pt #d4d3d3;
 }
 
 .card-inner{
   display:flex;
-  padding-top: 10rpx;
+  padding: 5rpx 10rpx;
 }
 .title{
-  font-size: 1.05rem;
+  font-size: 17pt;
   padding:10rpx 30rpx;
-  border-bottom: 1px solid #ccc8c8;
+  background: #8b2b1a;
+  color: white;
 }
 .card-inner image{
   display: inline-flex;
-  width:180rpx;
-  height:180rpx;
-  margin-right:15rpx;
+  width:205rpx;
+  height:185rpx;
+  
+  margin-right:40rpx;
+}
+
+.card-inner view{
+  margin-top:10rpx;
 }

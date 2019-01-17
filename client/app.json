@@ -4,7 +4,20 @@
     "pages/user/user",
     "pages/formAndPoll/formAndPoll",
     "pages/allEvents/allEvents",
-    "pages/restaurants/restaurants"
+    "pages/restaurants/restaurants",
+    "pages/formAndPoll/feedbackForm/feedbackForm",
+    "pages/shopping/shopping",
+    "pages/majors/majors",
+    "pages/formAndPoll/springGalaShowRegisterForm/springGalaShowRegisterForm",
+    "pages/maps/maps",
+    "pages/busRoutes/busRoutes",
+    "pages/contactUs/contactUs",
+    "pages/cssaService/cssaService",
+    "pages/formAndPoll/springGalaVolunteerRegisterForm/springGalaVolunteerRegisterForm",
+    "pages/cssaService/orientation/orientation",
+    "pages/cssaService/club/club",
+    "pages/cssaService/tuition/tuition",
+    "pages/maps/dorm/dorm"
   ],
   "window": {
     "backgroundColor": "#fff",
@@ -34,6 +47,7 @@
     ]
   },
   "usingComponents": {
-    "card": "/components/card/card"
+    "card": "/components/card/card",
+    "register-form": "/components/register-form/register-form"
   }
 }

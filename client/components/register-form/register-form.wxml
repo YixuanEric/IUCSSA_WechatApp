@@ -1,0 +1,34 @@
+<view class="form-container">
+<view class="form-title">{{title}}</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section" style="display:none">
+    <view class="input">姓名</view>
+    <input placeholder = "可填" bindinput="inputHandler" id="name" required/>
+  </view>
+  <view class="section" style="display:none">
+    <view class="input">邮箱</view>
+    <input placeholder = "可以不填" bindinput="inputHandler" id="email"/>
+  </view>
+  <view class="section">
+    <view class="input">昵称</view>
+    <input  placeholder = "必填"
+    bindinput="inputHandler" id="wechat"/>
+  </view>
+  
+  <view class="section">
+  <view class="input">年级</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{gradeArray}}">
+    <view class="picker-input">{{gradeArray[index]}}</view>
+  </picker>
+</view>
+<view class="section">
+<view class="input">说点什么吧</view>
+  <textarea  id ="textarea" bindinput="inputHandler" auto-height placeholder="写下内容" />
+</view>
+  <view class="btn-area">
+    <button form-type="submit" type="primary">Submit</button>
+    <button form-type="reset">Reset</button>
+  </view>
+</form>
+</view>
+

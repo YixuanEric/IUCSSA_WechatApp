@@ -4,30 +4,8 @@ Page({
     text: 'This is page data.',
     apiKey:"AIzaSyAxqRVR1Bjhc4IRcD_z4YcX9kLuhlneeMY"
   },
-  onLoad(options) {
-    let self = this;
-    // Do some initialize when page load.
-    wx.getLocation({
-      type: 'wgs84',
-      success(res) {
-        const latitude = res.latitude
-        const longitude = res.longitude
-        const speed = res.speed
-        const accuracy = res.accuracy
-        console.log("location: " + JSON.stringify(res));
-        console.log("url is: " + "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + latitude + "," + longitude + "&key=" + self.data.apiKey);
-        wx.request({
-          url: "https://maps.googleapis.com/maps/api/geocode/json?latlng="+latitude+","+longitude+"&key="+self.data.apiKey,
-          success:(res)=>{
-            console.log(res.data.results[1].formatted_address);
-          },
-          fail:(error)=>{
-            console.log(error);
-          }
-        })
-      }
-    })
-    
+  onLoad() {
+   
   },
   onReady() {
     // Do something when page ready.

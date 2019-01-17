@@ -3,6 +3,9 @@
 <view class="title">
   IUCSSA生活助手
 </view>
+<view class ="subtitle">
+  IUCSSA Collge Guide
+</view>
 <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
@@ -20,39 +23,49 @@
   </navigator>
   <navigator url="../allEvents/allEvents" open-type='navigate'>
     <image src="../../images/app store-fill.png"/>
-    <text>近期活动</text>
+    <text>所有活动</text>
   </navigator>
+  <navigator url="../cssaService/cssaService" open-type='navigate'>
   <view>
     <image src="../../images/heart.png"/>
     <text>CSSA服务</text>
   </view>
+  </navigator>
 
 
   <navigator url="../restaurants/restaurants" open-type='navigate'>
     <image src="../../images/food_bowl.png"/>
     <text>美食指南</text>
   </navigator>
-  <view>
+  <navigator url="../shopping/shopping" open-type='navigate'>
     <image src="../../images/shopping.png"/>
     <text>购物指南</text>
-  </view>
-  <view>
+  </navigator>
+  <navigator url="../majors/majors" open-type='navigate'>
     <image src="../../images/school.png"/>
     <text>专业介绍</text>
-  </view>
+  </navigator>
 
-
+<navigator url="../maps/maps" open-type='navigate'>
   <view>
     <image src="../../images/map.png" />
     <text>校园地图</text>
   </view>
+  </navigator>
+
+  <navigator url="../busRoutes/busRoutes" open-type='navigate'>
   <view>
     <image src="../../images/bus.png" />
     <text>公交线路</text>
   </view>
+  </navigator>
+  <navigator url="../contactUs/contactUs" open-type='navigate'>
   <view>
     <image src="../../images/contactUs.png" />
     <text>联系我们</text>
   </view>
-
+  </navigator>
+</view>
+<view class="copyright">
+<view> Copyright @ IUCSSA </view>
 </view>

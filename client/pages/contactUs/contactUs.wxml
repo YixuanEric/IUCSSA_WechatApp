@@ -1,0 +1,27 @@
+<view class="title">联系我们</view>
+<view class="main">
+<view class="heading">微信公众号</view>
+<view class="para">IUCSSA</view>
+<view class="para"><image mode="aspectFit" src="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/二维码.png" /></view>
+
+<view class="heading">Instagram</view>
+<view class="para">iucssahoosier</view>
+
+<view class="heading">Facebook</view>
+<view class="para">Indiana University Chinese Students & Scholars Association</view>
+<view class="heading">小程序相关</view>
+<view class="section-title" id="0" bindtap='tapHandler'>Developer</view>
+<view hidden="{{sub[0]}}">
+
+<view class="para">IT Department: Yixuan Wang</view>
+</view>
+
+<view class="section-title" id="1" bindtap='tapHandler'>Join WeApp Development</view>
+<view hidden="{{sub[1]}}">
+
+<view class="para">Add wechat: wyx970124</view>
+<view class="para">and send your resume</view>
+</view>
+
+</view>
+
