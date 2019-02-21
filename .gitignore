@@ -21,4 +21,8 @@ client/images/
 *.gif
 
 #files
-**/config.js
+client/
+config.js
+
+server/
+config.js
