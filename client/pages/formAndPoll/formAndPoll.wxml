@@ -1,6 +1,7 @@
 <!--pages/formAndPoll/formAndPoll.wxml-->
 <scroll-view>
 
+
 <card title="春晚主持人/志愿者报名" heading="每个IU学子都有机会登上IUCSSA春晚的舞台" url="./springGalaVolunteerRegisterForm/springGalaVolunteerRegisterForm" imageUrl = "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/springGalaShowRegisterForm.jpeg"></card>
 
 <card title="春晚节目报名" heading="每个IU学子都有机会登上IUCSSA春晚的舞台" url="./springGalaShowRegisterForm/springGalaShowRegisterForm" imageUrl = "https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/springGalaShowRegisterForm.jpeg"></card>

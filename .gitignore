@@ -19,3 +19,6 @@ client/images/
 *.jpg 
 *.png
 *.gif
+
+#files
+**/config.js

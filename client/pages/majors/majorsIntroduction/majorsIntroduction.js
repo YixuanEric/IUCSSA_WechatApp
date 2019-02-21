@@ -1,18 +1,18 @@
-// client/pages/allEvents/allEvents.js
+// client/pages/cssaService/orientation/orientation.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    sub: [true, true, true, true, true, true, true, true, true, true, true, true, true]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad:  function(){
-    
+  onLoad: function (options) {
+
   },
 
   /**
@@ -61,6 +61,15 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
+
+  },
+  tapHandler(e) {
+    const index = e.target.id;
+    const bool = this.data.sub[index];
+    const keyName = "sub[" + index + "]";
+    this.setData({
+      [keyName]: !bool
+    });
 
   }
 })

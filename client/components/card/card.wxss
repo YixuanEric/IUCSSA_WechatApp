@@ -10,7 +10,7 @@
 }
 
 .card-inner{
-  display:flex;
+  display: flex;
   padding: 5rpx 10rpx;
 }
 .title{
@@ -20,13 +20,12 @@
   color: white;
 }
 .card-inner image{
-  display: inline-flex;
   width:205rpx;
   height:185rpx;
-  
   margin-right:40rpx;
 }
 
 .card-inner view{
   margin-top:10rpx;
+  flex-basis: 100%;
 }

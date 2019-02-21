@@ -1,0 +1,75 @@
+<view class="title">关于公交</view>
+<view class="main">
+<view class="para">相较而言，布卢明顿的公交系统算是非常发
+达了。只要你是IU学生,每次上车时向司机
+显示学生证,便可以免费乘坐,否则要付1美元
+的车费。不过如果你搭乘的是字母线路，例如A路，就不需要拿卡乘车了。正所谓一卡
+走天涯,IU几万名学生、教授与员工,每天乘
+搭公交车穿梭布卢明顿的每个角落。</view>
+
+
+<view class="section-title" id="0" bindtap='tapHandler'>Double Map应用</view>
+  <view hidden="{{sub[0]}}">
+   <view class="para">为了减少等待公车的时间,对于经常乘 搭公交车的学生来说,Double Map可以 生活中
+不可缺一的必需品。Double Map 是一个免费下载的APP,可及时查看公 交车的实际位
+置,乘客可以根据公交车 当时的位置判断出
+⻔时间,节省在室外 等车的时间。
+在App Store或Google Play搜索 “Double
+Map”,并点击下载,或者官网上查 阅路线图:
+https://bloomington.dou- blemap.com/
+map/</view>
+
+  </view>
+<view class="heading">城市公交</view>
+  <view class="section-title" id="1" bindtap='tapHandler'>3路 College Mall/East 3rd Street</view>
+  <view hidden="{{sub[1]}}">
+    <view class="para"> 3路途中会经过几所热⻔学生公 寓:Campus Corner、The Fields、The Woods和Stratum,同时也途径Downtown 和College mall。车次是大约每30分钟一 班。</view>
+
+  </view>
+
+  <view class="section-title" id="2" bindtap='tapHandler'>6路 Campus Shuttle and 6 Limited</view>
+  <view hidden="{{sub[2]}}">
+    <view class="para">6路的线路比较单一,它是从Colonial Crest公寓出发,从17街一直到 三街的Knightridge公寓。6路会途径 Downtown、IMU、Collins宿舍、Kelley商 学院、Wells图书馆、Teter与Eigenmann 宿舍等热⻔地点。然而6 Limited路线更 短,路线范围的覆盖更偏向学校区域内, 以上提起的地点6 Limited都会经过。</view>
+  </view>
+
+  <view class="section-title" id="3" bindtap='tapHandler'>9路 IU Campus/ College Mall/ Campus Corner Apt 及 9 Limited</view>
+  <view hidden="{{sub[3]}}">
+    <view class="para">
+9路公交车是IU校园校外最热⻔及最 方便的公交车线路,总站是校外的 Campus Corner公寓,途中会经过 Kroger、College Mall等大型购物区。除 了购物方便之外,9路总站坐落在布卢明 顿热⻔学校公寓地区,公交车在10街及3 街等教学楼聚集的地方都设立了车站, 让住在校外的学生们可以搭乘9路上班。相对来说,9路是等于贯穿了整个学校的 每一个角落。由于9路的高需求量,在繁 忙时w间车辆会增至每隔5至10分钟的班次,在周末则是每半个小时一辆。</view>
+  </view>
+  <view class="heading">校内公交</view>
+
+  <view class="section-title" id="4" bindtap='tapHandler'>A路</view>
+  <view hidden="{{sub[4]}}">
+    <view class="para">以Stadium为起点, 经过Briscoe、McNutt 宿舍,Wells图
+书馆,3节与Jordan大道交 界
+点,Sample Gates,IMU,Psychology
+等重要站点。</view>
+  </view>
+
+  <view class="section-title" id="5" bindtap='tapHandler'>B路</view>
+  <view hidden="{{sub[5]}}">
+    <view class="para">以Fisher Court为起点,经过17
+街、10街、3街与Jordan大道交界点,SRSC(Sport Recreational
+Sport Center)等重要站点</view>
+  </view>
+
+  <view class="section-title" id="6" bindtap='tapHandler'>E路</view>
+  <view hidden="{{sub[6]}}">
+    <view class="para">以Everman宿舍为起点,经过Campus
+View宿舍,10街与Union街
+的交界 点,Willkie, Forest宿舍,3
+街与Jordan 大道交界点,SampleGates,
+IMU, Psychology,
+Wells图书馆, 教育学校教学楼
+,Eigenmann宿舍等重要站点。</view>
+  </view>
+
+  <view class="section-title" id="7" bindtap='tapHandler'>W路</view>
+  <view hidden="{{sub[7]}}">
+    <view class="para">以Stadium为起点,经过7街与
+Woodlawn 的交界点,IMU,Auditorium,
+10th 与 Woodlawn的
+交界点。</view>
+  </view>
+</view>

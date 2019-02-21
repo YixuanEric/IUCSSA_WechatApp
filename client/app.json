@@ -17,7 +17,10 @@
     "pages/cssaService/orientation/orientation",
     "pages/cssaService/club/club",
     "pages/cssaService/tuition/tuition",
-    "pages/maps/dorm/dorm"
+    "pages/maps/dorm/dorm",
+    "pages/majors/majorsIntroduction/majorsIntroduction",
+    "pages/busRoutes/busIntroduction/busIntroduction",
+    "pages/shopping/supermarketIntroduction/supermarketIntroduction"
   ],
   "window": {
     "backgroundColor": "#fff",
@@ -29,7 +32,7 @@
   "tabBar": {
     "color": "#7a1705",
     "selectedColor": "#7a1705",
-    "borderStyle": "#f8f8f8",
+    "borderStyle": "white",
     "backgroundColor": "#f8f8f8",
     "list": [
       {

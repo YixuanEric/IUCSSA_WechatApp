@@ -1,0 +1,29 @@
+<view class="title">超市介绍</view>
+<view class="main">
+<view class="para">相信大家一定都熟悉Supermarket的概念，但是在北美，更为地道的说法为Grocery store。
+在这个小镇中，Kroger，Target，CVS 和Walmart无时无刻不在为你的留学生活提供便利。</view>
+
+
+<view class="section-title" id="0" bindtap='tapHandler'>KROGER</view>
+  <view hidden="{{sub[0]}}">
+   <view class="para">Kroger是你在IU的大学生活中不可缺少的一个购物之地。24小时全年无休，不定时提供新鲜水果蔬菜。在B-Town,一共有两家大型的Kroger可供你选择。IUCSSA建议新生们选择528 S College Ave这一家, 9/9L 路校车直达门口，更多的为大家提供便利和节约交通上的费用。Kroger为了更好的迎合亚洲地区的留学生的食物口味，528 S College Ave 这一家新增加了Asian Fusion shelf，让你在遥远的大洋彼岸也能尝到家的味道。</view>
+
+  </view>
+  <view class="section-title" id="1" bindtap='tapHandler'>WALMART</view>
+  <view hidden="{{sub[1]}}">
+    <view class="para"> 相信这个商标大家都已经很熟悉了吧。沃尔玛作为全美最大的零售商，商品种类繁多。有趣的是，每年在新生到来之际，学校在深夜会组织大家去沃尔玛参加促销活动，有专车接送。但是基于沃尔玛的地理位置和交通便利的因素，IUCSSA建议大一新生把Kroger或者Target作为首选。</view>
+
+  </view>
+
+  <view class="section-title" id="2" bindtap='tapHandler'>TARGET</view>
+  <view hidden="{{sub[2]}}">
+    <view class="para">Target，作为全美仅次于Walmart的第二大零售商，是坐落于College Mall 中心地带的大型超市，主要售卖家用必需品（家具）、床上用品、厨房用品、服装、日常生活必需品、药品、食物等。相对于kroger，Target提供更多的日常生活所需。同样9/9L路校车在CollegeMall有站点，为大家提供交通便利。</view>
+  </view>
+
+  <view class="section-title" id="3" bindtap='tapHandler'>CVS</view>
+  <view hidden="{{sub[3]}}">
+    <view class="para">
+CVS是美国的最大药妆连锁零售商，我们日常生活中必备药品（处方药/Prescription Drugs除外) CVS都是应有尽有。在小镇中，一共有三家CVS可供大家选择，出于交通便利考虑，IUCSSA建议大家选择1000N College Ave这一家。CVS同时也提供24小时服务。</view>
+  </view>
+  
+</view>

@@ -1,0 +1,110 @@
+<view class="title">各大学院介绍</view>
+<view class="main">
+
+<view class="section-title" id="0" bindtap='tapHandler'>Jacobs School of Music</view>
+  <view hidden="{{sub[0]}}">
+    <view class="para">位于印第安那大学布鲁明顿校区, 为世界顶级音乐学院之一, 设有研究生学院与大学部。多于1600名学生于此就读, 其中过半数为大学部学生。学院提供钢琴、大提琴, 爵士乐、作曲、芭蕾、录音艺术、教育（声乐、弦乐、管乐）等专业。印第安纳大学音乐学院的许多专业都被列为美国第一, 学生们亦曾获得多项殊荣。</view>
+    <view class="para">／／校园生活
+每学期大部分学生都需要参加一次合奏。某些专业的学生需要参加特定的合奏。此外, 学院内有十三支合唱团, 八支乐队, 七支管弦乐队。</view>
+<view class="para">／／教职员与设施
+印第安那大学音乐学院师资优良, 全院有超过一百七十名全职教职员, 同时许多世 界顶尖之音学家与学者会来此进行交流。 音乐 学院亦拥有多种设施, 包括五座大楼, 拥有多于一百七十间练习房。</view>
+<view class="para">／／知名校友
+• 叶咏诗- 中国及香港著名女指挥家
+• Joshua David Bell 美国小提琴家, 曾获得葛莱美奖
+• John Clayton 美国大贝斯手,曾获得葛莱美奖
+• Peter Erskine 爵士鼓手与作曲家
+• Hoagy Carmichael 美国作曲家与演员，著名歌曲Stardust、Georgia on My Mind Heart and Soul均为其创作</view>
+  </view>
+
+  <view class="section-title" id="1" bindtap='tapHandler'>Kelley School of Business</view>
+  <view hidden="{{sub[1]}}">
+    <view class="para">凯利商学院成立于1920 年，拥有全美知名的教授，美国商
+业周刊Business Week 评定其本科商学教学质
+量为A 级，Princeton Review 的最佳课堂体验
+中也将其评为全美第一位。凯利商学院之所以能成为美国商学院的翘楚, 除
+了提供完美的教学之外，学校还擅长利用商界
+关系和资源为学生提供多种不同的实践机会, 并
+且提供自己学生多种不同的见习机会，这一点
+在大学中的会计学专业中尤为明显。</view>
+<view class="para">01 申请生必须完成至少30 小时的课程（两个学
+期）
+02 全部科目必须保持B 或以上的成绩
+03 总GPA 必须保持在3.5 或以上
+04 学院并不接纳学生中途弃课（如弃课，成绩单
+将显示W）
+必须在布卢明顿校至少12 个学分的以下课程：
+• BUS-K 201 或 BUS-K 303 (3 分)
+• 在以下课程里面选择一门课程：
+• ENG-W 131, BUS-C 104, BUS-C 204,
+BUS-L 201, 或 BUS-G202 与 BUS- D270
+• 在以下课程里面选择两门课程：
+• BUS-A 201, BUS-A 202, ECON-E 201,
+ECON-E 202, MATH-M 118, MATH-M119/211</view>
+    
+  </view>
+
+  <view class="section-title" id="2" bindtap='tapHandler'>School of Public & Environmental Affair</view>
+  <view hidden="{{sub[2]}}">
+    <view class="para">SPEA公共环境管理学院院是印第安纳大学一所包含多学科的学院，SPEA 学院多个美国专业排名取
+得了第一。学院全体教职员及学生的研究采用独立或合作研究的形式，并基于公共环境事务
+学院独特的在自然科学、行为科学、社会科学及管理科学等领域的深入的综合性知识。硕士
+课程全美排名第一非牟利管理学科全美第一 环境政策及管理学科全美第一 公共金融及预算
+学科全美第一。</view>
+<view class="para">该学院是一所专业性学院, 致力于教
+学、研究及服务。学院全体专业化教
+职员的研究领域包括： 政策及管理
+Public Policy and Management、
+国际事务 International Affairs、财
+政经济 Pub-lic Finance、非营利性
+管理 Non- Profit 城市事务 Urban Affairs， 环境科学
+及政策 Environmental Science and
+Management， 刑事司法 Criminal
+Justice， 法律及公共安全 Law and
+Public Safety， 健康学及管理 Health
+Science and Management。</view>
+  </view>
+
+  <view class="section-title" id="3" bindtap='tapHandler'>College of Art & Science</view>
+  <view hidden="{{sub[3]}}">
+    <view class="para">
+文理学院是印第安纳大学最重要也是最大的组成部分,他为全校提供博雅教育（Liberal Arts）。文理学院大约由五十多个科系组成，例如数学系、经济系与政治系等，都在全美享有很高的学术声望。全校大约有40%的本科生学习文理学院的专业，它同时还为其他学院和科研中心的学生提供基础课与选修课。印第安纳大学的文理学院提供40多种外语的学习课程，是美国大学内外语学习种类最多的学校之一。很多的语种，如阿尔巴尼亚语、乌兹别克语、蒙古语、突厥语在文理学院都有相应的课程与学位。</view>
+<view class="para">
+五十多个体系, 
+化学系, 
+数学系, 
+经济系, 
+政治系, 
+东亚语言与文化系, 
+电信传播系, 
+表演系, 
+美术系......</view>
+  </view>
+
+  <view class="section-title" id="4" bindtap='tapHandler'>School of Education</view>
+  <view hidden="{{sub[4]}}">
+    <view class="para">印第安纳大学教育学院 (School of Education)，前身为文理学院College of Art and Science 的一部分。于1923独立，教育学院是美国规模最大的教育学院之一，拥有超过200名教育职员。在2008年，其教育研究院2013被《美国新闻与世界报道》评选 为全国第19名。</view>
+    <view class="para">印第安纳大学教育学院提供多大学本科及大学专科学位,包括教育理学学士 B.S. in Teacher Education 、教育专科理学硕士 M.S. Education Spe-cialist (Ed.S.) 及教育博士
+Doctoral（Ed.D, Ph.D.）等。</view>
+  </view>
+
+  <view class="section-title" id="5" bindtap='tapHandler'>MAURER
+School of Law</view>
+  <view hidden="{{sub[5]}}">
+    <view class="para">印第安纳大学摩利尔法学院前身为印第安那大学法学院，于1842年成立，是布卢明顿校区最早成立的学院之一。法学院位于校内之西南面，拥有一個全国最完善的法学院图书馆。在2000年，美国首席大法官威廉•伦奎斯特曾于法学院的模拟法庭主持审讯。法学院在2009年度《美国新聞与世界报道》最佳法学院中列为全国第23名。法学院的著名校友包括最高法院助汉密尔顿（Lee Hamilton）。印第安纳大学法学院于2008年12月8日正式命名为印第安那大学摩利尔法学院。</view>
+  </view>
+
+  <view class="section-title" id="6" bindtap='tapHandler'>School of Public Health</view>
+  <view hidden="{{sub[6]}}">
+    <view class="para">顾名思义,该学院的专业门下的专业多数于健康有关, 比如 Safety Management, Athletic Training, Health Fitness Specialist, Nutrition Science,
+大二学年期间，具有可竞争性入学标准的学生将申请入读专业。符合所有其他专业的入学标准的学生将自动录取专业。Outdoor Recreations, Parks, and Human Ecology。还有近年热门起来的Sport Marketing and Management也属于该学院, IU的Tourism, Hospitality and Event Management 酒店管 理也是热门的专业之一。</view>
+  </view>
+
+  <view class="section-title" id="7" bindtap='tapHandler'>School of
+Informatics & Computing & Engineering</view>
+  <view hidden="{{sub[7]}}">
+    <view class="para">该学院于一九九零年成立，借以提供学生及教授一个广泛的研究环境及平台。资讯学院所研究的泛围甚广，从生物学、经济学以至美术都一覆盖。“人类如何改变科技，以及科技如何改变人类” 乃资讯学院最感兴趣的概念。此外，该学院亦提供 “人机交互设计”、“音乐资讯学”、“生物资讯学”、“化学资讯”、“保安资讯学”以及“电脑资讯学”的硕士学位。 印第安纳大学的资讯学院是世界上极少提供 “人机交互学位” 的院校，亦是全美国唯一一所提供正式联合学位。于2005年7月1日，该大学的电脑学系正式从文理学院迁移到资讯院。资讯学院与校内的图书资讯科技学院、电子信息通讯学院、音乐学院以及认知科学学院亦有密切的关系。2009年7月6日，资讯学院改名为资讯及计算学院 School of Informatics and Computing。2018年，学院改名为SICE，即为School of Informatics， Computing and Engineering。</view>
+  </view>
+
+  
+
+</view>

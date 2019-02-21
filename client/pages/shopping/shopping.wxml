@@ -1,2 +1,2 @@
 <!--client/pages/shopping/shopping.wxml-->
-<card title="更多功能，敬请期待"></card>
+<card title="超市介绍" heading="东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭" url="./supermarketIntroduction/supermarketIntroduction"imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/supermarketIntroduction.png"></card>

@@ -1,4 +1,4 @@
-// client/pages/busRoutes/busRoutes.js
+// client/pages/majors/majors.js
 Page({
 
   /**

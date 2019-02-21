@@ -1,2 +1,2 @@
 <!--client/pages/majors/majors.wxml-->
-<card title="更多功能，敬请期待"></card>
+<card title="各大学院介绍" heading="条条大道通罗马，水流千里归大海" url="./majorsIntroduction/majorsIntroduction" imageUrl="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/majorsIntroduction.png"></card>

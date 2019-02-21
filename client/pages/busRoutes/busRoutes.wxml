@@ -1,2 +1,2 @@
 <!--client/pages/busRoutes/busRoutes.wxml-->
-<card title="更多功能，敬请期待"></card>
+<card title="公交线路简介" heading="车如流水马如龙，花月正春风。" url="./busIntroduction/busIntroduction" imageUrl ="https://lg-b6ropfvo-1257170599.cos.ap-shanghai.myqcloud.com/busIntroduction.png"></card>

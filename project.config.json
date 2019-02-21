@@ -13,6 +13,7 @@
 	"appid": "wxb3d1e7fad020f518",
 	"projectname": "IUCSSA",
 	"libVersion": "2.3.0",
+	"compileType": "miniprogram",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -30,7 +31,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 12,
 			"list": [
 				{
 					"id": -1,
@@ -85,6 +86,34 @@
 					"name": "联系我们",
 					"pathName": "pages/contactUs/contactUs",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "dangqian",
+					"pathName": "pages/majors/majorsIntroduction/majorsIntroduction",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "dangqian",
+					"pathName": "pages/busRoutes/busIntroduction/busIntroduction",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "dangqian",
+					"pathName": "pages/shopping/shopping",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "dangqian",
+					"pathName": "pages/shopping/supermarketIntroduction/supermarketIntroduction",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
